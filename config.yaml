@@ -1,1 +1,7 @@
-
+ipPermissions:
+- fromPort: 80
+  toPort: 80
+  ipProtocol: "tcp"
+  ipRanges: 
+  - ipCidr: "83.251.38.228/32"
+    description: "Fahad's address"
